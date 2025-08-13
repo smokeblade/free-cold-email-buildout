@@ -1,6 +1,8 @@
 export const dynamic = "force-dynamic";
 export const revalidate = 0;
 
+import Link from "next/link";
+
 export default function HowItWorksPage() {
   return (
     <main className="mx-auto max-w-3xl px-6 py-16 space-y-10">
@@ -27,13 +29,13 @@ export default function HowItWorksPage() {
       </ol>
 
       <div className="flex items-center gap-4">
-        <a
+        <Link
           href="/book-a-demo"
           className="rounded-md bg-black text-white hover:bg-black/85 px-5 py-3 text-sm sm:text-base"
         >
           Book a free buildout
-        </a>
-        <a href="/" className="text-sm">Back to home</a>
+        </Link>
+        <Link href="/" className="text-sm">Back to home</Link>
       </div>
 
       <p className="text-xs text-black/50 dark:text-white/50">

@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Home() {
   return (
     <main className="min-h-[60vh] flex flex-col items-center justify-center gap-6 px-6 py-24">
@@ -6,12 +8,12 @@ export default function Home() {
         We’ll stand up your cold email infrastructure for free. You cover software and inboxes. We earn via affiliate.
       </p>
       <div className="flex items-center gap-3">
-        <a href="/book-a-demo" className="rounded-md bg-black text-white hover:bg-black/85 px-5 py-3 text-sm sm:text-base">
+        <Link href="/book-a-demo" className="rounded-md bg-black text-white hover:bg-black/85 px-5 py-3 text-sm sm:text-base">
           Book a free buildout
-        </a>
-        <a href="/how-it-works" className="rounded-md border border-black/10 hover:bg-black/[.03] px-5 py-3 text-sm sm:text-base">
+        </Link>
+        <Link href="/how-it-works" className="rounded-md border border-black/10 hover:bg-black/[.03] px-5 py-3 text-sm sm:text-base">
           How it works
-        </a>
+        </Link>
       </div>
       <p className="text-xs text-black/50 dark:text-white/50">No SLAs implied; SSR only.</p>
     </main>
