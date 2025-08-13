@@ -15,74 +15,7 @@ const logos = [
 
 const HeroSection = () => {
   return (
-    <section className="relative min-h-screen pt-14 pb-12 overflow-hidden" style={{
-      background: `linear-gradient(180deg, 
-        rgba(240, 234, 225, 0.3) 0%,
-        rgba(240, 234, 225, 0.2) 20%,
-        rgba(240, 234, 225, 0.1) 40%,
-        rgba(255, 255, 255, 0.8) 60%,
-        rgba(255, 255, 255, 0.95) 80%,
-        rgba(255, 255, 255, 1) 100%
-      )`
-    }}>
-      
-      {/* Subtle radial gradient overlay */}
-      <div className="absolute inset-0 bg-gradient-radial from-transparent via-transparent to-white opacity-20"></div>
-      
-      {/* Grid lines aligned with dashboard structure */}
-      <div className="absolute inset-0 opacity-[0.08]">
-        {/* Horizontal line spanning full width at dashboard header level */}
-        <div 
-          className="absolute h-px bg-gray-400 z-10"
-          style={{ 
-            top: 'calc(50vh + 24px + 68px)',
-            left: '0',
-            right: '0'
-          }}
-        />
-        
-        {/* Left vertical line aligned with dashboard outer edge */}
-        <div 
-          className="absolute w-px z-10"
-          style={{ 
-            left: 'calc(50% - 32rem - 4px)',
-            top: '14px',
-            bottom: '0',
-            background: 'linear-gradient(to bottom, rgba(156, 163, 175, 0) 0%, rgba(156, 163, 175, 0.3) 10%, rgba(156, 163, 175, 1) 20%, rgba(156, 163, 175, 1) 80%, rgba(156, 163, 175, 0.3) 90%, rgba(156, 163, 175, 0) 100%)'
-          }}
-        />
-        
-        {/* Right vertical line aligned with dashboard outer edge */}
-        <div 
-          className="absolute w-px z-10"
-          style={{ 
-            left: 'calc(50% + 32rem + 4px)',
-            top: '14px',
-            bottom: '0',
-            background: 'linear-gradient(to bottom, rgba(156, 163, 175, 0) 0%, rgba(156, 163, 175, 0.3) 10%, rgba(156, 163, 175, 1) 20%, rgba(156, 163, 175, 1) 80%, rgba(156, 163, 175, 0.3) 90%, rgba(156, 163, 175, 0) 100%)'
-          }}
-        />
-        
-        {/* Additional horizontal lines with fade effects */}
-        <div 
-          className="absolute h-px z-10"
-          style={{ 
-            top: 'calc(50vh + 24px + 68px + 200px)',
-            left: '0',
-            right: '0',
-            background: 'linear-gradient(to right, rgba(156, 163, 175, 0) 0%, rgba(156, 163, 175, 1) 10%, rgba(156, 163, 175, 1) 90%, rgba(156, 163, 175, 0) 100%)'
-          }}
-        />
-        <div 
-          className="absolute h-px z-10"
-          style={{ 
-            top: 'calc(50vh + 24px + 68px + 400px)',
-            left: '0',
-            right: '0',
-            background: 'linear-gradient(to right, rgba(156, 163, 175, 0) 0%, rgba(156, 163, 175, 1) 10%, rgba(156, 163, 175, 1) 90%, rgba(156, 163, 175, 0) 100%)'
-          }}
-        />
-      </div>
+    <section className="pt-28 md:pt-32 pb-10 bg-[#F5F6F7]">
       
       <div className="relative w-full max-w-6xl mx-auto px-4 sm:px-6 text-center pt-12 sm:pt-24">
         {/* Pill-shaped Tagline Container */}
