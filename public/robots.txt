@@ -1,0 +1,15 @@
+# *
+User-agent: *
+Allow: /
+Disallow: /terms
+Disallow: /privacy
+Disallow: /replacement-policy
+Disallow: /refund-policy
+Disallow: /book-a-demo
+Disallow: /schedule-discovery-teamlead
+
+# Host
+Host: https://onvally.com
+
+# Sitemaps
+Sitemap: https://onvally.com/sitemap.xml
