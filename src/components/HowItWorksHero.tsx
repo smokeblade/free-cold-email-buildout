@@ -74,24 +74,22 @@ const HowItWorksHero = () => {
           {/* Left Column */}
           <div>
             <div className="mb-4">
-              <span className="text-blue-500 text-sm font-medium">How we solve it</span>
+              <span className="text-blue-500 text-sm font-medium">What we set up</span>
             </div>
-            <h2 className="text-4xl font-bold text-gray-900 mb-6">
-              Get matched in 48 hours
-            </h2>
-            <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-              Skip expensive hiring processes and unreliable freelancers. Tell us what you need, and we'll connect you with specialized virtual assistants who can start working immediately.
-            </p>
+              <h2 className="text-4xl font-bold text-gray-900 mb-6">
+                Your cold email system, configured
+              </h2>
+              <p className="text-lg text-gray-600 mb-8 leading-relaxed">
+                Domains, DNS, inbox warmup, sending limits, tracking, templates, and a safe ramp. You own every account.
+              </p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <a href="/demo" className="group inline-flex items-center justify-center gap-2 bg-blue-600 text-white text-[15px] font-medium px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
-                Find My VA Match
+              <a href="/book-a-demo" className="group inline-flex items-center justify-center gap-2 bg-blue-600 text-white text-[15px] font-medium px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
+                Book a free buildout
                 <svg className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
               </a>
-              <a href="/demo" className="group relative text-gray-700 text-[15px] font-medium px-6 py-3 transition-all duration-200 rounded-lg border border-gray-200 hover:bg-white">
+              <a href="/how-it-works" className="group relative text-gray-700 text-[15px] font-medium px-6 py-3 transition-all duration-200 rounded-lg border border-gray-200 hover:bg-white">
                 <span className="absolute inset-0 bg-gray-500 bg-opacity-10 rounded-lg opacity-0 group-hover:opacity-100 transition-opacity duration-200"></span>
-                <span className="relative flex items-center justify-center">
-                  See Success Stories <span className="ml-1 group-hover:text-gray-900 transition-colors duration-200">→</span>
-                </span>
+                <span className="relative flex items-center justify-center">See how it works →</span>
               </a>
             </div>
           </div>

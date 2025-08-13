@@ -46,8 +46,8 @@ const ProblemMitigationSection = () => {
         <div className="rounded-[48px] overflow-hidden shadow-sm">
           <div className="bg-gradient-to-b from-white to-[#F3EEE6]/70 p-6 md:p-10">
             <div className="text-center max-w-3xl mx-auto">
-              <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-gray-900">Stop overpaying for talent</h2>
-              <p className="mt-3 text-base md:text-lg text-gray-700">Get the same quality output for a fraction of the cost. Our vetted VAs operate proven playbooks so you scale without bloated headcount.</p>
+              <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-gray-900">Ship cold email safely, without burning domains</h2>
+              <p className="mt-3 text-base md:text-lg text-gray-700">DNS configured right, inbox warmup, safe sending limits, and deliverability‑friendly cadences—so you can prospect without setting fires.</p>
             </div>
 
             {/* Comparison cards */}
@@ -55,10 +55,10 @@ const ProblemMitigationSection = () => {
               {/* Traditional */}
               <div className="rounded-[28px] border border-gray-100 bg-white p-6 md:p-8 shadow-sm">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-lg md:text-xl font-semibold text-gray-900">Traditional local hire</h3>
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-900">Ad‑hoc DIY setup</h3>
                   <div className="text-right">
-                    <div className="text-xs text-gray-500">Avg. annual</div>
-                    <div className="text-2xl font-semibold text-gray-900">$75,000</div>
+                    <div className="text-xs text-gray-500">Typical outcome</div>
+                    <div className="text-2xl font-semibold text-gray-900">Spam issues</div>
                   </div>
                 </div>
                 <div className="mt-5 space-y-3">
@@ -74,10 +74,10 @@ const ProblemMitigationSection = () => {
               {/* onvally */}
               <div className="rounded-[28px] border border-gray-100 bg-white p-6 md:p-8 shadow-sm">
                 <div className="flex items-center justify-between">
-                  <h3 className="text-lg md:text-xl font-semibold text-gray-900">onvally VA</h3>
+                  <h3 className="text-lg md:text-xl font-semibold text-gray-900">Free buildout (this site)</h3>
                   <div className="text-right">
-                    <div className="text-xs text-gray-500">Avg. annual</div>
-                    <div className="text-2xl font-semibold text-blue-600">$21,600</div>
+                    <div className="text-xs text-gray-500">Your spend</div>
+                    <div className="text-2xl font-semibold text-blue-600">Software + inboxes</div>
                   </div>
                 </div>
                 <div className="mt-5 space-y-3">
@@ -100,8 +100,8 @@ const ProblemMitigationSection = () => {
             {/* CTA */}
             <div className="mt-10 md:mt-12 text-center">
               <div className="inline-flex flex-wrap items-center gap-3">
-                <a href="/demo" className="group inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-medium text-[15px] hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
-                  Find your VA match
+                <a href="/book-a-demo" className="group inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg font-medium text-[15px] hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
+                  Book a free buildout
                   <svg className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
                 </a>
                 <a href="#calc" className="group relative inline-flex items-center border border-gray-200 text-gray-900 px-6 py-3 rounded-lg font-medium text-[15px] hover:bg-white transition-all">
