@@ -6,18 +6,18 @@ import Script from 'next/script'
 export const revalidate = 300
 
 export const metadata: Metadata = {
-  title: 'Book a free discovery call',
-  description: 'See onvally® in action. Meet an expert, get a tailored plan, and match with pre‑vetted virtual assistants in ~72 hours.',
+  title: 'Start your free cold email buildout',
+  description: 'Tell us your volumes, domains, and tools. We configure your cold email stack for free. You cover software and inboxes; we earn via affiliate.',
   openGraph: {
-    title: 'Book a free discovery call',
-    description: 'Meet an expert, get a tailored plan, and match with pre‑vetted virtual assistants in ~72 hours.',
+    title: 'Start your free cold email buildout',
+    description: 'Domains/DNS, warmup, sending limits, tracking, and templates configured safely. You own all accounts.',
     type: 'website',
-    url: 'https://onvally.com/demo'
+    url: '/demo'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Book a free discovery call',
-    description: 'See onvally® in action and get matched with pre‑vetted VAs in ~72 hours.'
+    title: 'Start your free cold email buildout',
+    description: 'Configure your cold email system safely. You cover software and inboxes.'
   }
 }
 
@@ -32,18 +32,12 @@ export default function Page() {
           <div className="grid lg:grid-cols-2 gap-8 items-start">
             <div>
               <div className="inline-flex items-center gap-2 rounded-full bg-black/5 text-gray-700 px-3 py-1 text-xs">
-                <span>Virtual Assistant Hiring Made Easy</span>
+                <span>Free Cold Email Buildout</span>
                 <span>→</span>
               </div>
-              <h1 className="mt-4 text-4xl md:text-6xl font-semibold tracking-tight text-gray-900">
-                Book your free discovery call
-              </h1>
-              <p className="mt-4 text-gray-700 md:text-lg max-w-xl">
-                Meet with an expert to scope your needs and see how we match you to pre‑vetted VAs in ~72 hours. No contracts. Month‑to‑month.
-              </p>
-              <div className="mt-4 text-sm text-gray-500">
-                Starting at <span className="font-medium text-gray-800">$1,395/month</span> and includes a free replacement guarantee.
-              </div>
+              <h1 className="mt-4 text-4xl md:text-6xl font-semibold tracking-tight text-gray-900">Start your free buildout</h1>
+              <p className="mt-4 text-gray-700 md:text-lg max-w-xl">We’ll scope your volumes and stack, then configure domains/DNS, warmup, sending limits, tracking, and templates. You own everything.</p>
+              <div className="mt-4 text-sm text-gray-500">Buildout is free. You cover software and inboxes directly.</div>
 
               {/* Social proof chips */}
               <div className="mt-6 grid sm:grid-cols-2 gap-3 max-w-lg">
@@ -63,7 +57,7 @@ export default function Page() {
 
             {/* Form card */}
             <div className="rounded-[24px] bg-white border border-gray-200 p-4 md:p-6 shadow-sm">
-              <div className="text-sm text-gray-500 mb-2">Schedule your call</div>
+              <div className="text-sm text-gray-500 mb-2">Tell us about your stack</div>
               <div className="relative">
                 <iframe 
                   src="https://api.leadconnectorhq.com/widget/survey/U6aZrvVN0V2BFR0yLeAB" 
