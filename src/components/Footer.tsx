@@ -5,7 +5,7 @@ import { ArrowUpRight } from 'lucide-react';
 
 const Footer = () => {
   return (
-    <footer className="bg-[#F1ECE4] rounded-t-[56px] md:rounded-t-[64px]">
+    <footer className="bg-[#F5F6F7] rounded-t-[56px] md:rounded-t-[64px]">
       <div className="max-w-7xl mx-auto px-6">
         {/* Hero-style image with CTA above the links */}
         <div className="pt-10 md:pt-12">

@@ -87,8 +87,8 @@ const PricingPageSection = () => {
       <section className="pt-28 md:pt-32 pb-10" style={{ background: '#F5F6F7' }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="rounded-[40px] md:rounded-[56px] overflow-hidden bg-gradient-to-b from-white to-[#F5F6F7] p-8 md:p-12 text-center">
-            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-gray-900">Buildout is free</h1>
-            <p className="mt-3 md:text-lg text-gray-700 max-w-3xl mx-auto">You cover software and inboxes directly. We configure the stack safely and hand everything off. Your price with providers does not change.</p>
+            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-gray-900">One plan: Free</h1>
+            <p className="mt-3 md:text-lg text-gray-700 max-w-3xl mx-auto">We configure your cold email system. You cover software and inboxes directly. We may earn affiliate commissions from some providers — your price does not change.</p>
             <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
               <a href="/demo" className="group inline-flex items-center justify-center gap-2 bg-blue-600 text-white text-[15px] font-medium px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
                 Get a free demo

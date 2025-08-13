@@ -79,7 +79,7 @@ const TestimonialsSectionV2 = () => {
   );
 
   return (
-    <section className="relative bg-gradient-to-b from-white to-[#f0eae1] py-16">
+    <section className="relative bg-gradient-to-b from-white to-[#F5F6F7] py-16">
       <div className="max-w-4xl mx-auto px-6">
         {/* Header Section */}
         <div className="text-center mb-16">
@@ -144,7 +144,7 @@ const TestimonialsSectionV2 = () => {
           </div>
 
           {/* Gradient Fade - Desktop Only */}
-          <div className="hidden lg:block absolute bottom-0 left-0 w-full h-48 bg-gradient-to-t from-[#f0eae1] to-transparent pointer-events-none"></div>
+        <div className="hidden lg:block absolute bottom-0 left-0 w-full h-48 bg-gradient-to-t from-[#F5F6F7] to-transparent pointer-events-none"></div>
         </div>
 
         {/* CTA Button */}

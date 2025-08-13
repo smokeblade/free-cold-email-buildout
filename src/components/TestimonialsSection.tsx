@@ -57,7 +57,7 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="py-20 w-full overflow-hidden relative bg-gradient-to-b from-white/20 via-[#f0eae1] to-white/20" style={{ backgroundColor: '#f0eae1' }}>
+    <section className="py-20 w-full overflow-hidden relative bg-gradient-to-b from-white/20 via-[#F5F6F7] to-white/20" style={{ backgroundColor: '#F5F6F7' }}>
       {/* Header */}
       <div className="max-w-7xl mx-auto px-6 text-center mb-16">
         <h2 className="text-3xl font-semibold text-gray-900 mb-4">

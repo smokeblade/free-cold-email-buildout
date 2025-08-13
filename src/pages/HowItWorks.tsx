@@ -61,7 +61,7 @@ const HowItWorks: React.FC = () => {
       {/* Hero */}
       <section className="pt-28 md:pt-32">
         <div className="max-w-7xl mx-auto px-6">
-          <div className="rounded-[40px] md:rounded-[56px] overflow-hidden bg-gradient-to-b from-white to-[#F3EEE6] p-6 md:p-10">
+          <div className="rounded-[40px] md:rounded-[56px] overflow-hidden bg-gradient-to-b from-white to-[#F5F6F7] p-6 md:p-10">
             <div className="grid md:grid-cols-2 gap-8 md:gap-12 items-center">
               <div>
                 <h1 className="text-3xl md:text-5xl font-semibold tracking-tight text-gray-900">

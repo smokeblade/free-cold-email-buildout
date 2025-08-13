@@ -12,7 +12,7 @@ const FeaturesSection = () => {
 
         {/* Outer rounded beige container */}
         <div className="rounded-[48px] overflow-hidden shadow-sm">
-          <div className="bg-gradient-to-b from-white to-[#f0eae1]/60 p-6 md:p-10">
+          <div className="bg-gradient-to-b from-white to-[#F5F6F7]/60 p-6 md:p-10">
             {/* Top wide card (separate) */}
             <div
               className="relative rounded-[28px] overflow-hidden shadow-md bg-white h-[360px] md:h-[420px] mb-6 md:mb-8"

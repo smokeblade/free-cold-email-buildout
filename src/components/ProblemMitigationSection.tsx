@@ -44,7 +44,7 @@ const ProblemMitigationSection = () => {
     <section className="py-16 md:py-20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="rounded-[48px] overflow-hidden shadow-sm">
-          <div className="bg-gradient-to-b from-white to-[#F3EEE6]/70 p-6 md:p-10">
+          <div className="bg-gradient-to-b from-white to-[#F5F6F7]/70 p-6 md:p-10">
             <div className="text-center max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-gray-900">Ship cold email safely, without burning domains</h2>
               <p className="mt-3 text-base md:text-lg text-gray-700">DNS configured right, inbox warmup, safe sending limits, and deliverability‑friendly cadences—so you can prospect without setting fires.</p>

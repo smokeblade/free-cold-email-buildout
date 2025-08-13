@@ -43,7 +43,7 @@ const CompetitorComparisonSection = () => {
     <section className="py-20">
       <div className="max-w-7xl mx-auto px-6">
         <div className="rounded-[48px] overflow-hidden shadow-sm">
-          <div className="bg-gradient-to-b from-white to-[#F3EEE6]/70 p-6 md:p-10">
+          <div className="bg-gradient-to-b from-white to-[#F5F6F7]/70 p-6 md:p-10">
             {/* Header */}
             <div className="text-center max-w-3xl mx-auto">
               <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-gray-900">Why businesses choose onvally over freelancers</h2>

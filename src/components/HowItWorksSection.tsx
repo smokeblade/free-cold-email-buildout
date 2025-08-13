@@ -21,7 +21,7 @@ const HowItWorksSection = () => {
   ];
 
   return (
-    <section style={{ backgroundColor: '#f0eae1' }} className="py-24">
+    <section style={{ backgroundColor: '#F5F6F7' }} className="py-24">
       <div className="max-w-6xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
