@@ -9,6 +9,9 @@ export function Header() {
         </Link>
         <nav className="flex items-center gap-2 text-sm">
           <Link href="/how-it-works" className="px-3 py-1.5 rounded-full hover:bg-gray-100 text-gray-700">How it works</Link>
+          <Link href="/pricing" className="px-3 py-1.5 rounded-full hover:bg-gray-100 text-gray-700">Pricing</Link>
+          <Link href="/privacy" className="px-3 py-1.5 rounded-full hover:bg-gray-100 text-gray-700 hidden sm:inline-block">Privacy</Link>
+          <Link href="/terms" className="px-3 py-1.5 rounded-full hover:bg-gray-100 text-gray-700 hidden sm:inline-block">Terms</Link>
           <Link
             href="/book-a-demo"
             className="rounded-full bg-gray-900 text-white hover:bg-black/90 px-4 py-2"

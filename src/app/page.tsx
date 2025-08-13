@@ -1,4 +1,10 @@
 import Link from "next/link";
+import { FeaturesSection } from "@/components/sections/Features";
+import { ProcessSection } from "@/components/sections/Process";
+import { ComparisonSection } from "@/components/sections/Comparison";
+import { TestimonialsSection } from "@/components/sections/Testimonials";
+import { FAQSection } from "@/components/sections/FAQ";
+import { FinalCTASection } from "@/components/sections/FinalCTA";
 
 export default function Home() {
   return (
@@ -22,6 +28,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <FeaturesSection />
+      <ProcessSection />
+      <ComparisonSection />
+      <TestimonialsSection />
+      <FAQSection />
+      <FinalCTASection />
     </main>
   );
 }
