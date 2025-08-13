@@ -4,18 +4,17 @@ import type { Metadata } from 'next'
 export const revalidate = 300
 
 export const metadata: Metadata = {
-  title: 'Pricing',
-  description: 'Transparent pricing for virtual assistant services. Starting from $1,395/month with our placement guarantee. No hidden fees, no placement costs.',
+  title: 'Pricing — Free Cold Email Buildout',
+  description: 'Buildout is free. You cover software and inboxes directly. We’ll recommend providers and a safe sending plan.',
   openGraph: {
-    title: 'Pricing',
-    description: 'Transparent pricing for virtual assistant services. Starting from $1,395/month with our placement guarantee.',
-    type: 'website',
-    url: 'https://onvally.com/pricing'
+    title: 'Pricing — Free Cold Email Buildout',
+    description: 'Buildout is free. You cover software and inboxes directly.',
+    type: 'website'
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Pricing',
-    description: 'Transparent pricing for virtual assistant services. No hidden fees.'
+    title: 'Pricing — Free Cold Email Buildout',
+    description: 'Buildout is free. You cover software and inboxes directly.'
   }
 }
 

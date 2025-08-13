@@ -19,35 +19,35 @@ const steps: Step[] = [
     numberLabel: '01.',
     title: 'Discovery form and 20‑min consult',
     description:
-      'Tell us goals, tools, coverage windows, and budget on the quick form. In a 20‑minute call, we translate that into a clear scope and the right role shape.',
+      'Share volumes, target domains, tools, and timing. In a short call, we confirm scope and the best‑fit providers for your goals.',
     imageUrl:
       'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=2000&auto=format&fit=crop',
-    learnMoreHref: '/demo',
+    learnMoreHref: '/book-a-demo',
   },
   {
     id: '02',
     numberLabel: '02.',
-    title: 'Best practices + success plan for week 1‑4',
+    title: 'Stack + safety plan',
     description:
-      'We share role‑specific best practices tailored to your workflow and define measurable week‑by‑week outcomes so you see value immediately.',
+      'We recommend inbox providers and sending tools, then define DNS settings, warmup plan, and sending limits for a safe ramp.',
     imageUrl:
       'https://images.unsplash.com/photo-1523246191908-60e2a9f4ec2a?q=80&w=2000&auto=format&fit=crop',
   },
   {
     id: '03',
     numberLabel: '03.',
-    title: '72‑hour matching with pre‑vetted candidates',
+    title: 'Provision + configure',
     description:
-      'You meet 1–3 candidates who have already passed skills tests, English assessments, tool proficiencies, and reference checks. Matching typically completes within 72 hours (may vary with demand).',
+      'You purchase inboxes and tools under your accounts. We configure DNS, tracking, warmup, templates, and webhooks/logging.',
     imageUrl:
       'https://images.unsplash.com/photo-1521791055366-0d553872125f?q=80&w=2000&auto=format&fit=crop',
   },
   {
     id: '04',
     numberLabel: '04.',
-    title: 'Interview, pick, and start with QA support',
+    title: 'Launch + handoff',
     description:
-      'Run short interviews, choose your VA, and start. A US‑based QA manager monitors output, provides coaching, and protects quality.',
+      'Send safely with a clear ramp schedule and monitoring. We deliver a handoff doc covering settings, limits, and daily checks.',
     imageUrl:
       'https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?q=80&w=2000&auto=format&fit=crop',
   },

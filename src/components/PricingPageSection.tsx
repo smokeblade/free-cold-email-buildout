@@ -8,41 +8,41 @@ const PricingPageSection = () => {
   // Essential plans (core roles) — 20h or 40h/week
   const essentialPlans = [
     {
-      name: 'Part‑time',
-      price: 797,
-      hours: '20h/week',
-      tagline: 'Offload recurring ops and support tasks',
-      popular: false,
-      features: [
-        'Pre‑vetted Virtual Assistant',
-        'Administrative tasks, inbox & calendar',
-        'Light customer support coverage',
-        'Social scheduling & publishing',
-        'Weekly reporting cadence',
-        'Flexible monthly plan',
-        'Phone + Email Support'
-      ],
-      bestFor: ['Founders under water', 'Teams with repeatable tasks', 'Consistent weekly coverage'],
-      examples: ['Customer Support', 'Data Entry & Research', 'Executive Assistant / Admin', 'Operations Assistant'],
-      exclusions: [],
-      ctaText: 'Hire Your VA'
-    },
-    {
-      name: 'Full‑time',
-      price: 1497,
-      hours: '40h/week',
-      tagline: 'Delegate entire workflows to a dedicated VA',
+      name: 'Minimal stack',
+      price: 0,
+      hours: 'You own tools',
+      tagline: 'Buildout free; you cover software + inboxes',
       popular: true,
       features: [
-        'Everything in Part‑time',
-        'Dedicated resource (40h/week)',
-        'Priority VA Replacement (24hrs)',
-        'Dedicated Account Manager'
+        'DNS (SPF/DKIM/DMARC) configured',
+        'Inbox provisioning guidance',
+        'Warmup + health plan',
+        'Sending limits + safe ramp',
+        'Tracking domain + webhooks/logging',
+        'Deliverability‑friendly templates',
+        'Handoff doc + daily checks'
       ],
-      bestFor: ['Owners replacing local admin', 'High‑volume support or ops', 'Multi‑stakeholder coordination'],
-      examples: ['Customer Support', 'Data Entry & Research', 'Executive Assistant / Admin', 'Operations Assistant'],
+      bestFor: ['Founders, agencies, SDR teams'],
+      examples: ['Cold email prospecting', 'Appointment setting', 'Partner outreach'],
       exclusions: [],
-      ctaText: 'Hire Your VA'
+      ctaText: 'Book a free buildout'
+    },
+    {
+      name: 'Recommended stack',
+      price: 0,
+      hours: 'You own tools',
+      tagline: 'Same free buildout with provider recommendations',
+      popular: false,
+      features: [
+        'All Minimal features',
+        'Provider shortlist by volume/region',
+        'Template pack variants',
+        'Optional monitoring hooks'
+      ],
+      bestFor: ['Teams scaling volume safely'],
+      examples: ['Multi‑domain rotation', 'Multiple inboxes per SDR'],
+      exclusions: [],
+      ctaText: 'Book a free buildout'
     }
   ];
 
@@ -68,46 +68,7 @@ const PricingPageSection = () => {
   ];
 
   // Strategic track (explicit section for senior roles)
-  const strategicPackages = [
-    {
-      name: 'Strategic (20h/week)',
-      price: 1997,
-      tagline: 'Senior operator (COS/PM/Marketing Ops)',
-      popular: true,
-      features: [
-        'Top 1% talent (10+ years experience)',
-        'Roadmaps, OKRs & reporting cadence',
-        'Cross‑functional coordination',
-        'Automation & tooling ownership',
-        'Hiring support & playbooks',
-        'QA coverage across US + EU hours',
-        'Monthly executive review',
-        'Free replacement guarantee'
-      ],
-      examples: ['Chief of Staff', 'Senior Project Manager', 'Sales / RevOps', 'Marketing Ops'],
-      exclusions: [],
-      ctaText: 'Hire Strategic VA'
-    },
-    {
-      name: 'Strategic (40h/week)',
-      price: 2997,
-      tagline: 'Senior operator to own outcomes',
-      popular: false,
-      features: [
-        'All Part‑time strategic benefits',
-        'Owns initiatives end‑to‑end',
-        'Leads vendor/partner comms',
-        'Weekly steering & risks/blocks',
-        'Advanced analytics & dashboards',
-        'Change management & enablement',
-        'Executive‑level updates',
-        'Free replacement guarantee'
-      ],
-      examples: ['Chief of Staff', 'Senior Project Manager', 'Sales / RevOps', 'Marketing Ops'],
-      exclusions: [],
-      ctaText: 'Hire Strategic VA'
-    }
-  ]
+  const strategicPackages: any[] = []
 
   const renderCell = (value: boolean | string) => {
     if (typeof value === 'boolean') {
@@ -126,8 +87,8 @@ const PricingPageSection = () => {
       <section className="pt-28 md:pt-32 pb-10" style={{ background: '#F5F6F7' }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="rounded-[40px] md:rounded-[56px] overflow-hidden bg-gradient-to-b from-white to-[#F5F6F7] p-8 md:p-12 text-center">
-            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-gray-900">Simple pricing for growing teams</h1>
-            <p className="mt-3 md:text-lg text-gray-700 max-w-3xl mx-auto">From ${Math.min(...[...essentialPlans.map(p => p.price), ...strategicPackages.map(p => p.price)]).toLocaleString()}/mo. Everything you need to scale reliable output. Specialized matching, best practices, QA coverage, and our free replacement guarantee.</p>
+            <h1 className="text-4xl md:text-5xl font-semibold tracking-tight text-gray-900">Buildout is free</h1>
+            <p className="mt-3 md:text-lg text-gray-700 max-w-3xl mx-auto">You cover software and inboxes directly. We configure the stack safely and hand everything off. Your price with providers does not change.</p>
             <div className="mt-6 flex flex-col sm:flex-row items-center justify-center gap-3">
               <a href="/demo" className="group inline-flex items-center justify-center gap-2 bg-blue-600 text-white text-[15px] font-medium px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
                 Get a free demo
@@ -204,9 +165,7 @@ const PricingPageSection = () => {
                     </div>
                   )}
                   <div className="mt-auto pt-2 border-t border-gray-100">
-                    <a href="/demo" className={`w-full h-12 group inline-flex items-center justify-center gap-2 rounded-lg px-6 py-0 text-[15px] leading-none whitespace-nowrap font-medium ${
-                      pkg.popular ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-gray-900 text-white hover:bg-black/90'
-                    }`}>
+                    <a href="/book-a-demo" className={`w-full h-12 group inline-flex items-center justify-center gap-2 rounded-lg px-6 py-0 text-[15px] leading-none whitespace-nowrap font-medium ${pkg.popular ? 'bg-blue-600 text-white hover:bg-blue-700' : 'bg-gray-900 text-white hover:bg-black/90'}`}>
                       {pkg.ctaText}
                       <svg className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
                     </a>
@@ -218,70 +177,16 @@ const PricingPageSection = () => {
         </div>
       </section>
 
-      {/* Strategic VAs */}
-      <section className="py-6" style={{ background: '#F5F6F7' }}>
-        <div className="max-w-7xl mx-auto px-6">
-          <div className="rounded-[32px] bg-gradient-to-b from-white to-[#F5F6F7] p-6 md:p-10 border border-gray-200/60">
-            <div className="mb-6 text-center">
-              <h2 className="text-2xl font-semibold text-gray-900">Strategic virtual assistants</h2>
-              <p className="text-gray-600">Senior operators for outcomes — recommended from 20h/week</p>
-            </div>
-            <div className="grid md:grid-cols-2 gap-8">
-              {strategicPackages.map((pkg, index) => (
-                <div key={index} className={`relative rounded-3xl bg-white border p-8 md:p-10 h-full flex flex-col transition-all duration-300 ${pkg.popular ? 'border-blue-300 ring-1 ring-blue-200 shadow-sm hover:border-blue-400' : 'border-gray-200 shadow-sm hover:border-gray-300 hover:bg-gray-50/50'}`}>
-                  {pkg.popular && (
-                    <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center bg-blue-600 text-white px-3 py-1 rounded-full text-xs font-medium">Recommended</span>
-                  )}
-                  <div className="flex-1">
-                    <div className="text-base font-semibold text-blue-600">{pkg.name}</div>
-                    <div className="mt-2">
-                      <span className="text-4xl font-bold text-gray-900">${pkg.price.toLocaleString()}</span>
-                      <span className="text-gray-500 text-sm ml-1 align-top">/month</span>
-                      <div className="text-xs text-gray-500">Fixed • {pkg.name.includes('20') ? '20h/week' : '40h/week'}</div>
-                    </div>
-                    <p className="mt-3 text-gray-600 text-sm">{pkg.tagline}</p>
-                  </div>
-                  <ul className="mt-6 space-y-2">
-                    {pkg.features.map((feature, i) => (
-                      <li key={i} className="flex items-start gap-2">
-                        <div className="w-4 h-4 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
-                          <Check className="w-2.5 h-2.5 text-blue-600" />
-                        </div>
-                        <span className="text-sm text-gray-700">{feature}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  {Array.isArray((pkg as any).examples) && (
-                    <div className="mt-5">
-                      <div className="text-xs font-semibold text-gray-900 mb-2">Examples</div>
-                      <div className="flex flex-wrap gap-2">
-                        {(pkg as any).examples.map((tag: string) => (
-                          <span key={tag} className="px-2.5 py-1 rounded-full text-xs bg-white text-gray-800 border border-gray-200">{tag}</span>
-                        ))}
-                      </div>
-                    </div>
-                  )}
-                  <div className="mt-auto pt-2 border-t border-gray-100">
-                    <a href="/demo" className="w-full h-12 group inline-flex items-center justify-center gap-2 rounded-lg px-6 py-0 text-[15px] leading-none whitespace-nowrap font-medium bg-blue-600 text-white hover:bg-blue-700">
-                      {pkg.ctaText}
-                      <svg className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
-                    </a>
-                  </div>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
+      {/* Strategic section removed for this offer */}
 
-      {/* Enterprise Hiring */}
+      {/* Enterprise Hiring (kept as info, but updated) */}
       <section className="py-6" style={{ background: '#F5F6F7' }}>
         <div className="max-w-7xl mx-auto px-6">
           <div className="rounded-3xl bg-white border border-gray-200 p-6 md:p-8">
             <div className="md:flex items-center justify-between gap-8">
               <div>
-                <h3 className="text-xl font-semibold text-gray-900">Enterprise hiring</h3>
-                <p className="text-gray-600 mt-1">Hire 3–50+ team members at once with custom onboarding, dedicated account management, and volume pricing.</p>
+                <h3 className="text-xl font-semibold text-gray-900">Enterprise rollout</h3>
+                <p className="text-gray-600 mt-1">Stand up 20–100+ inboxes across brands with a safe rotation plan, unified tracking, and documentation.</p>
                 <ul className="mt-4 grid sm:grid-cols-2 gap-2">
                   {['Mix of Essential & Strategic roles','Custom onboarding flows & SOPs','Dedicated Account Manager','Volume‑based discounts','Case study spotlight (opt‑in)'].map((item, i) => (
                     <li key={i} className="flex items-start gap-2 text-sm text-gray-700">
@@ -293,8 +198,8 @@ const PricingPageSection = () => {
               </div>
               <div className="mt-6 md:mt-0 text-center md:text-right">
                 <div className="text-3xl font-bold text-gray-900">Custom</div>
-                <div className="text-gray-500">Volume hiring & time‑based discounts</div>
-                <a href="/demo" className="mt-3 inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 text-[15px] font-medium bg-gray-900 text-white hover:bg-black/90">Talk to sales<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></a>
+                <div className="text-gray-500">Volume rollout & compliance</div>
+                <a href="/book-a-demo" className="mt-3 inline-flex items-center justify-center gap-2 rounded-lg px-6 py-3 text-[15px] font-medium bg-gray-900 text-white hover:bg-black/90">Talk to us<svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg></a>
               </div>
             </div>
           </div>

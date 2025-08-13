@@ -18,8 +18,8 @@ const Footer = () => {
             <div className="absolute inset-0 bg-black/35" />
             <div className="absolute inset-0 flex items-center">
               <div className="px-6 md:px-10">
-                <h3 className="text-white text-3xl md:text-4xl font-semibold tracking-tight max-w-xl">The easiest way to scale reliable output.</h3>
-                <Link href="/demo" className="mt-4 inline-flex items-center bg-white text-gray-900 px-6 py-3 rounded-xl font-medium hover:bg-white/90">Get a free demo</Link>
+                <h3 className="text-white text-3xl md:text-4xl font-semibold tracking-tight max-w-xl">Stand up your cold email system, safely.</h3>
+                <Link href="/book-a-demo" className="mt-4 inline-flex items-center bg-white text-gray-900 px-6 py-3 rounded-xl font-medium hover:bg白/90">Book a free buildout</Link>
             </div>
             </div>
           </div>
@@ -48,31 +48,20 @@ const Footer = () => {
         {/* Links grid */}
         <div className="pt-10 pb-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
           <div>
-            <div className="text-xs tracking-wider text-gray-500 mb-3">ROLES</div>
+            <div className="text-xs tracking-wider text-gray-500 mb-3">PAGES</div>
             <ul className="space-y-2.5">
-              <li><Link href="/roles/admin-va" className="text-gray-600 hover:text-black transition-colors">Administrative Virtual Assistant</Link></li>
-              <li><Link href="/roles/customer-support" className="text-gray-600 hover:text-black transition-colors">Customer Support Virtual Assistant</Link></li>
-              <li><Link href="/roles/data-entry" className="text-gray-600 hover:text-black transition-colors">Data Entry Virtual Assistant</Link></li>
-              <li><Link href="/roles/sales-sdr" className="text-gray-600 hover:text-black transition-colors">Sales Development Representative (SDR)</Link></li>
-              <li><Link href="/roles/graphic-designer" className="text-gray-600 hover:text-black transition-colors">Graphic Designer</Link></li>
-              <li><Link href="/roles/bookkeeper" className="text-gray-600 hover:text-black transition-colors">Bookkeeper</Link></li>
-              <li><Link href="/roles/seo-specialist" className="text-gray-600 hover:text-black transition-colors">SEO Specialist</Link></li>
-              <li><Link href="/roles/call-center-agent" className="text-gray-600 hover:text-black transition-colors">Call Center Agent</Link></li>
-              <li><Link href="/roles/executive-assistant" className="text-gray-600 hover:text-black transition-colors">Executive Assistant</Link></li>
-              <li><Link href="/roles/appointment-setter" className="text-gray-600 hover:text-black transition-colors">Appointment Setter</Link></li>
-              <li><Link href="/roles/social-media-manager" className="text-gray-600 hover:text-black transition-colors">Social Media Manager</Link></li>
-              <li><Link href="/roles/copywriter" className="text-gray-600 hover:text-black transition-colors">Copywriter</Link></li>
+              <li><Link href="/how-it-works" className="text-gray-600 hover:text-black transition-colors">How it works</Link></li>
+              <li><Link href="/pricing" className="text-gray-600 hover:text-black transition-colors">Pricing</Link></li>
+              <li><Link href="/book-a-demo" className="text-gray-600 hover:text-black transition-colors">Book a free buildout</Link></li>
             </ul>
           </div>
 
           <div>
             <div className="text-xs tracking-wider text-gray-500 mb-3">RESOURCES</div>
             <ul className="space-y-2.5">
-              <li><Link href="/case-studies" className="text-gray-600 hover:text-black transition-colors">Case Studies</Link></li>
-              <li><Link href="/comparison" className="text-gray-600 hover:text-black transition-colors">Compare onvally</Link></li>
-              <li><Link href="/roles" className="text-gray-600 hover:text-black transition-colors">Virtual Assistant Roles Overview</Link></li>
-              <li><Link href="/" className="text-gray-600 hover:text-black transition-colors">Email Marketing</Link></li>
-              <li><Link href="/" className="text-gray-600 hover:text-black transition-colors">Best VA Websites</Link></li>
+              <li><Link href="/comparison" className="text-gray-600 hover:text-black transition-colors">Why free? (affiliate)</Link></li>
+              <li><Link href="/privacy" className="text-gray-600 hover:text-black transition-colors">Privacy</Link></li>
+              <li><Link href="/terms" className="text-gray-600 hover:text-black transition-colors">Terms</Link></li>
             </ul>
           </div>
 
@@ -80,10 +69,8 @@ const Footer = () => {
             <div className="text-xs tracking-wider text-gray-500 mb-3">COMPANY</div>
             <ul className="space-y-2.5">
               <li><Link href="/how-it-works" className="text-gray-600 hover:text-black transition-colors">About</Link></li>
-              <li><Link href="/careers" className="text-gray-600 hover:text-black transition-colors">Careers</Link></li>
-              <li><Link href="/leadership" className="text-gray-600 hover:text-black transition-colors">Leadership</Link></li>
-              <li><Link href="/" className="text-gray-600 hover:text-black transition-colors">Press</Link></li>
-              <li><Link href="/" className="text-gray-600 hover:text-black transition-colors">Partner with onvally</Link></li>
+              <li><Link href="/pricing" className="text-gray-600 hover:text-black transition-colors">Pricing</Link></li>
+              <li><Link href="/book-a-demo" className="text-gray-600 hover:text-black transition-colors">Book</Link></li>
             </ul>
           </div>
 
@@ -98,7 +85,7 @@ const Footer = () => {
 
         {/* Bottom legal row */}
         <div className="py-6 border-t border-gray-200 flex flex-col md:flex-row items-center justify-between gap-4 text-xs">
-          <div className="text-gray-600">onvally, LLC. All rights reserved.</div>
+          <div className="text-gray-600">Free Cold Email Buildout. All rights reserved.</div>
           <div className="flex flex-wrap items-center gap-4">
             <Link href="/terms" className="text-gray-600 hover:text-black transition-colors">Terms & Conditions</Link>
             <Link href="/privacy" className="text-gray-600 hover:text-black transition-colors">Privacy Policy</Link>
