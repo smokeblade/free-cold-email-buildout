@@ -1,34 +1,10 @@
 "use client";
-import React, { useState, useEffect, useRef } from 'react';
-import { ChevronDown, Menu, X, Users, TrendingUp, Building, HeadphonesIcon, FileText, PenTool, Database, Code, User, Briefcase, Target, Palette, Share2, Calculator, BarChart3, DollarSign, Search, MessageCircle, Stethoscope, Home, Shield, Scale, Landmark, Phone, Video, Crown, Calendar } from 'lucide-react';
+import React, { useState, useEffect } from 'react';
+import { Menu, X } from 'lucide-react';
 import Link from 'next/link';
-import roles, { rolesByCategory } from '@/data/roles';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
-  const [isServicesOpen, setIsServicesOpen] = useState(false);
-  const [isResourcesOpen, setIsResourcesOpen] = useState(false);
-  const [isCompanyOpen, setIsCompanyOpen] = useState(false);
-
-  // Close timers to prevent flicker when moving from trigger → panel
-  const servicesCloseTimer = useRef<number | undefined>(undefined);
-  const resourcesCloseTimer = useRef<number | undefined>(undefined);
-  const companyCloseTimer = useRef<number | undefined>(undefined);
-
-  const cancelTimer = (timerRef: React.MutableRefObject<number | undefined>) => {
-    if (timerRef.current) {
-      window.clearTimeout(timerRef.current);
-      timerRef.current = undefined;
-    }
-  };
-
-  const scheduleClose = (
-    timerRef: React.MutableRefObject<number | undefined>,
-    setter: React.Dispatch<React.SetStateAction<boolean>>
-  ) => {
-    cancelTimer(timerRef);
-    timerRef.current = window.setTimeout(() => setter(false), 150);
-  };
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
