@@ -147,9 +147,7 @@ const Header = () => {
                     <div className="mt-6 pt-4 border-t border-gray-200">
                       <div className="flex items-center justify-between">
                         <p className="text-xs text-gray-500">Find the perfect Virtual Assistant for your business needs</p>
-                        <Link href="/roles" className="bg-blue-600 text-white px-4 py-1.5 rounded-md text-xs font-medium hover:bg-blue-700 transition-colors">
-                          Browse all roles
-                        </Link>
+                        <span className="bg-blue-600 text-white px-4 py-1.5 rounded-md text-xs font-medium opacity-60 cursor-not-allowed">Browse all roles</span>
                       </div>
                     </div>
                   </div>
@@ -421,7 +419,7 @@ const Header = () => {
         {isMenuOpen && (
           <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-lg border-b border-gray-100 z-50">
             <nav className="px-4 sm:px-6 py-4 space-y-3">
-              <Link href="/roles" className="block text-gray-600 hover:text-gray-900 text-sm font-medium py-2">Roles</Link>
+              {/* Roles removed */}
               <Link href="/how-it-works" className="block text-gray-600 hover:text-gray-900 text-sm font-medium py-2">How it works</Link>
                 <Link href="/pricing" className="block text-gray-600 hover:text-gray-900 text-sm font-medium py-2">Pricing</Link>
               <Link href="/careers" className="block text-gray-600 hover:text-gray-900 text-sm font-medium py-2">Careers</Link>

@@ -66,7 +66,7 @@ export default function Page({ params }: { params: { slug: string } }) {
               </div>
             </div>
             <div className="mt-8 text-sm text-gray-600">
-              Explore roles: <Link className="text-blue-700 hover:underline" href="/roles">Virtual Assistant roles</Link>, or learn <Link className="text-blue-700 hover:underline" href="/how-it-works">how it works</Link>.
+              Learn more: <Link className="text-blue-700 hover:underline" href="/how-it-works">how it works</Link> or <Link className="text-blue-700 hover:underline" href="/pricing">pricing</Link>.
             </div>
           </div>
         </div>

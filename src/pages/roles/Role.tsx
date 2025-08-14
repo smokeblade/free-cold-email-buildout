@@ -55,7 +55,7 @@ const RolePage: React.FC = () => {
           <div className="max-w-3xl mx-auto px-6 text-center">
             <h1 className="text-3xl font-semibold tracking-tight text-gray-900">Role not found</h1>
             <p className="mt-4 text-gray-700">Choose a role from the overview page.</p>
-            <Link href="/roles" className="mt-6 inline-block bg-blue-600 text-white px-5 py-3 rounded-lg text-sm font-medium">Browse roles</Link>
+            <Link href="/pricing" className="mt-6 inline-block bg-blue-600 text-white px-5 py-3 rounded-lg text-sm font-medium">See pricing</Link>
           </div>
         </section>
         <Footer />

@@ -26,7 +26,7 @@ export default function Page() {
             <h1 className="text-3xl md:text-4xl font-semibold tracking-tight text-gray-900">You’re all set 🎉</h1>
             <p className="mt-3 text-gray-700 md:text-lg">Thanks for joining the onvally® talent network. Our team will review your application and reach out if there’s a fit. You’ll also be considered for upcoming roles.</p>
             <div className="mt-6 flex flex-wrap gap-3 justify-center">
-              <Link href="/roles" className="inline-flex items-center bg-blue-600 text-white px-5 py-3 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">Explore roles</Link>
+              <Link href="/pricing" className="inline-flex items-center bg-blue-600 text-white px-5 py-3 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">See pricing</Link>
               <Link href="/" className="inline-flex items-center bg-gray-900 text-white px-5 py-3 rounded-lg text-sm font-medium hover:bg-black/90 transition-colors">Back to home</Link>
             </div>
           </div>
