@@ -27,11 +27,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <Link href="/" className="flex items-center">
-              <img 
-                src="/onvally_logo.png" 
-                alt="onvally" 
-                className="h-16 sm:h-20 w-auto"
-              />
+              <span className="text-2xl font-bold text-gray-900">Cold Email Launchpad</span>
             </Link>
           </div>
 
@@ -39,13 +35,13 @@ const Header = () => {
           <nav className="hidden lg:flex items-center space-x-6">
             <Link href="/how-it-works" className="text-gray-700 hover:text-gray-900 text-sm font-normal px-3 py-2 rounded-lg transition-colors duration-300 hover:bg-gray-100">How it works</Link>
             <Link href="/pricing" className="text-gray-700 hover:text-gray-900 text-sm font-normal px-3 py-2 rounded-lg transition-colors duration-300 hover:bg-gray-100">Pricing</Link>
-            <Link href="/demo" className="group inline-flex items-center justify-center gap-1.5 bg-blue-600 text-white text-sm font-semibold px-4 h-10 rounded-lg hover:bg-blue-700 transition-colors">Start Free Buildout</Link>
+            <Link href="/demo" className="group inline-flex items-center justify-center gap-1.5 bg-blue-600 text-white text-sm font-semibold px-4 h-10 rounded-lg hover:bg-blue-700 transition-colors">Get Free Setup</Link>
           </nav>
 
           {/* Right-side CTA (desktop) */}
           <div className="hidden lg:flex items-center">
             <Link href="/demo" className="group inline-flex items-center justify-center gap-1.5 bg-blue-600 text-white text-sm font-semibold px-4 h-10 rounded-lg hover:bg-blue-700 transition-colors">
-              Start Free Buildout
+              Get Free Setup
             </Link>
           </div>
 
@@ -65,7 +61,7 @@ const Header = () => {
               <Link href="/how-it-works" className="block text-gray-600 hover:text-gray-900 text-sm font-medium py-2">How it works</Link>
               <Link href="/pricing" className="block text-gray-600 hover:text-gray-900 text-sm font-medium py-2">Pricing</Link>
               <div className="pt-2 border-t border-gray-100">
-                <Link href="/demo" className="w-full inline-flex items-center justify-center bg-blue-600 text-white text-sm font-medium px-5 py-3 rounded-lg hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl">Start Free Buildout</Link>
+                <Link href="/demo" className="w-full inline-flex items-center justify-center bg-blue-600 text-white text-sm font-medium px-5 py-3 rounded-lg hover:bg-blue-700 transition-all duration-200 shadow-lg hover:shadow-xl">Get Free Setup</Link>
               </div>
             </nav>
           </div>

@@ -83,8 +83,8 @@ const HowItWorksHero = () => {
                 Domains, DNS, inbox warmup, sending limits, tracking, templates, and a safe ramp. You own every account.
               </p>
             <div className="flex flex-col sm:flex-row gap-3">
-              <a href="/book-a-demo" className="group inline-flex items-center justify-center gap-2 bg-blue-600 text-white text-[15px] font-medium px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
-                Book a free buildout
+              <a href="/demo" className="group inline-flex items-center justify-center gap-2 bg-blue-600 text-white text-[15px] font-medium px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
+                Get Free Setup
                 <svg className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
               </a>
               <a href="/how-it-works" className="group relative text-gray-700 text-[15px] font-medium px-6 py-3 transition-all duration-200 rounded-lg border border-gray-200 hover:bg-white">

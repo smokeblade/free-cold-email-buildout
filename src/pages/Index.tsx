@@ -4,15 +4,7 @@ import Header from '../components/Header';
 import HeroSection from '../components/HeroSection';
 import ProblemMitigationSection from '../components/ProblemMitigationSection';
 import HowItWorksHero from '../components/HowItWorksHero';
-import FeaturesSection from '../components/FeaturesSection';
-import PartnershipSection from '../components/PartnershipSection';
-import TestimonialsSection from '../components/TestimonialsSection';
-import TestimonialsSectionV2 from '../components/TestimonialsSectionV2';
-import VAExpertiseSection from '../components/StateExpertiseSection';
-// import CompetitorComparisonSection from '../components/CompetitorComparisonSection';
 import HowItWorksSection from '../components/HowItWorksSection';
-import PlacementGuaranteeSection from '../components/PlacementGuaranteeSection';
-import FAQSection from '../components/FAQSection';
 import Footer from '../components/Footer';
 import OwnerStyleFAQ from '@/components/OwnerStyleFAQ';
 
@@ -23,37 +15,29 @@ const Index = () => {
       <HeroSection />
       <ProblemMitigationSection />
       <HowItWorksHero />
-      <FeaturesSection />
-      <PartnershipSection />
-      <TestimonialsSection />
-      <TestimonialsSectionV2 />
-      <VAExpertiseSection />
-      {/* Comparison content moved to dedicated /comparison page */}
       <HowItWorksSection />
-      <PlacementGuaranteeSection />
       <OwnerStyleFAQ
         items={[
           { question: 'How do I get started?', answer: (
             <div>
-              <p>Book a 30‑minute consult. As part of booking, you’ll answer a few scoping questions so we can prepare.</p>
-              <p className="mt-2">On the call, we confirm goals, coverage windows, tools, and success metrics—then kick off matching.</p>
+              <p>Book a 30‑minute consult. As part of booking, you’ll answer a few scoping questions so we can recommend a stack.</p>
+              <p className="mt-2">On the call, we confirm domains, volumes, tools, and timelines — then start the buildout.</p>
             </div>
           ) },
-          { question: 'How fast is matching?', answer: (
+          { question: 'How fast is setup?', answer: (
             <div>
-              <p>We typically present 1–3 pre‑vetted candidates within ~72 hours. Timing can vary with demand and role specificity.</p>
-              <p className="mt-2">All candidates pass skills tests, English/writing checks, tools proficiency, and reference screening.</p>
+              <p>Typical setup takes a few days after we have domain access and tool accounts. Timing depends on inbox provisioning and warmup.</p>
+              <p className="mt-2">We share a handoff doc and safety limits so you can start sending confidently.</p>
             </div>
           ) },
-          { question: 'Who employs the VA?', answer: (
+          { question: 'What do we need to buy?', answer: (
             <div>
-              <p>Your VA is employed by onvally. We handle compliance, payroll, and benefits so you focus on outcomes—not admin.</p>
-              <p className="mt-2">If it’s not a fit, our free replacement guarantee applies.</p>
+              <p>You’ll pay providers directly for domains, inboxes, and your sending tool (e.g. Instantly, Smartlead). We may earn affiliate commission, but your price is the same.</p>
             </div>
           ) },
-          { question: 'Which time zones do you cover?', answer: (
+          { question: 'Who owns the accounts?', answer: (
             <div>
-              <p>We support US and European hours. We recommend 4–6 hours overlap with your core team for speed and feedback.</p>
+              <p>You do. All accounts are in your name. We document credentials sharing best practices if you grant temporary access.</p>
             </div>
           ) },
         ]}

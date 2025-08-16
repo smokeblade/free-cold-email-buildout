@@ -21,19 +21,19 @@ const HeroSection = () => {
         {/* Pill-shaped Tagline Container */}
         <div className="mb-4 sm:mb-6">
           <div className="inline-flex items-center px-3 py-1.5 bg-gray-400 bg-opacity-20 text-gray-700 text-xs font-medium rounded-full hover:bg-opacity-30 transition-all duration-200">
-            Free Cold Email Buildout →
+            Cold Email Launchpad →
           </div>
         </div>
 
         {/* Main Headline (match /demo hero style) */}
         <div className="space-y-4 sm:space-y-2 mb-6">
           <h1 className="mt-4 text-4xl md:text-6xl font-semibold tracking-tight text-gray-900">
-            We set up your cold email stack for free
+            We set up your cold email system for free
           </h1>
 
           <div className="space-y-3 sm:space-y-2">
             <p className="mt-4 text-gray-700 md:text-lg max-w-xl mx-auto">
-              You cover software and inboxes; we earn via affiliate. Safe defaults, deliverability‑friendly templates, and a clean handoff.
+              You just pay for software and inboxes; we earn via affiliate commissions. Safe defaults, deliverability‑friendly templates, and a clean handoff.
             </p>
           </div>
         </div>
@@ -41,7 +41,7 @@ const HeroSection = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-6 sm:mb-8 w-full px-4 sm:px-0">
           <a href="/demo" className="group inline-flex items-center justify-center gap-3 w-full sm:w-auto bg-blue-600 text-white text-[15px] font-medium px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
-            Start free buildout
+            Get Free Setup
             <svg className="w-5 h-5 -mr-0.5 transition-all duration-200 text-blue-200 group-hover:text-white group-hover:translate-x-0.5" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
           </a>
           <a href="/how-it-works" className="w-full sm:w-auto relative text-gray-700 text-[15px] font-medium px-6 py-3 rounded-lg transition-all duration-200 group border border-gray-200 hover:bg-white">
@@ -54,7 +54,7 @@ const HeroSection = () => {
         
         {/* Small Legal Text */}
         <p className="text-xs text-gray-500 mb-8 sm:mb-16 px-4 sm:px-0">
-          No SLAs are implied; pages are server‑rendered only. You retain ownership of all accounts.
+          No ongoing fees. You own all accounts. Cold Email Launchpad earns via affiliate partnerships.
         </p>
 
         {/* Dashboard preview removed for cold email buildout */}
@@ -63,7 +63,7 @@ const HeroSection = () => {
         <div className="mt-0 mb-16 overflow-hidden">
           <div className="text-center mb-6">
             <p className="text-xs font-medium text-gray-500 tracking-wide">
-              Trusted by businesses hiring remote talent
+              Trusted by teams launching cold email campaigns
             </p>
           </div>
           {/* Marquee with normalized logo containers */}

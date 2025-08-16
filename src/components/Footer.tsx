@@ -18,8 +18,8 @@ const Footer = () => {
             <div className="absolute inset-0 bg-black/35" />
             <div className="absolute inset-0 flex items-center">
               <div className="px-6 md:px-10">
-                <h3 className="text-white text-3xl md:text-4xl font-semibold tracking-tight max-w-xl">Stand up your cold email system, safely.</h3>
-                <Link href="/book-a-demo" className="mt-4 inline-flex items-center bg-white text-gray-900 px-6 py-3 rounded-xl font-medium hover:bg白/90">Book a free buildout</Link>
+                <h3 className="text-white text-3xl md:text-4xl font-semibold tracking-tight max-w-xl">Launch your cold email system, safely.</h3>
+                <Link href="/demo" className="mt-4 inline-flex items-center bg-white text-gray-900 px-6 py-3 rounded-xl font-medium hover:bg-gray-50">Get Free Setup</Link>
             </div>
             </div>
           </div>
@@ -31,7 +31,7 @@ const Footer = () => {
           </div>
           <div className="md:ml-auto w-full md:w-auto flex flex-col sm:flex-row items-stretch gap-3 sm:gap-4 md:gap-5">
             <Link href="/demo" className="relative group w-full sm:w-[240px] md:w-[300px] rounded-2xl bg-[#0E0F10] text-white p-5 md:p-6 hover:bg-black/95 transition-colors">
-            <div className="text-base md:text-lg font-medium tracking-tight">Get a free demo</div>
+            <div className="text-base md:text-lg font-medium tracking-tight">Get free setup</div>
               <div className="absolute top-3 right-3 w-8 h-8 md:w-9 md:h-9 rounded-full bg-white/10 flex items-center justify-center transition-transform group-hover:-translate-y-0.5 group-hover:translate-x-0.5">
                 <ArrowUpRight className="w-4 h-4 md:w-5 md:h-5" />
               </div>
@@ -52,7 +52,7 @@ const Footer = () => {
             <ul className="space-y-2.5">
               <li><Link href="/how-it-works" className="text-gray-600 hover:text-black transition-colors">How it works</Link></li>
               <li><Link href="/pricing" className="text-gray-600 hover:text-black transition-colors">Pricing</Link></li>
-              <li><Link href="/book-a-demo" className="text-gray-600 hover:text-black transition-colors">Book a free buildout</Link></li>
+              <li><Link href="/demo" className="text-gray-600 hover:text-black transition-colors">Get free setup</Link></li>
             </ul>
           </div>
 
@@ -70,7 +70,7 @@ const Footer = () => {
             <ul className="space-y-2.5">
               <li><Link href="/how-it-works" className="text-gray-600 hover:text-black transition-colors">About</Link></li>
               <li><Link href="/pricing" className="text-gray-600 hover:text-black transition-colors">Pricing</Link></li>
-              <li><Link href="/book-a-demo" className="text-gray-600 hover:text-black transition-colors">Book</Link></li>
+              <li><Link href="/demo" className="text-gray-600 hover:text-black transition-colors">Setup</Link></li>
             </ul>
           </div>
 
@@ -85,7 +85,7 @@ const Footer = () => {
 
         {/* Bottom legal row */}
         <div className="py-6 border-t border-gray-200 flex flex-col md:flex-row items-center justify-between gap-4 text-xs">
-          <div className="text-gray-600">Free Cold Email Buildout. All rights reserved.</div>
+          <div className="text-gray-600">Cold Email Launchpad. All rights reserved.</div>
           <div className="flex flex-wrap items-center gap-4">
             <Link href="/terms" className="text-gray-600 hover:text-black transition-colors">Terms & Conditions</Link>
             <Link href="/privacy" className="text-gray-600 hover:text-black transition-colors">Privacy Policy</Link>

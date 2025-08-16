@@ -5,18 +5,18 @@ const HowItWorksSection = () => {
   const steps = [
     {
       number: 1,
-      title: 'Tell Us Your Needs',
-      description: 'Describe your business requirements, preferred skills, and the type of tasks you need help with.'
+      title: 'Scope & access',
+      description: 'We confirm domains, volumes, and tools. You grant DNS and provider access where needed.'
     },
     {
       number: 2,
-      title: 'Meet Your Matches',
-      description: 'Interview pre-vetted virtual assistants who match your criteria within 48 hours.'
+      title: 'Configure stack',
+      description: 'We set up DNS (SPF/DKIM/DMARC), provision inboxes, add tracking domain, and define safe limits.'
     },
     {
       number: 3,
-      title: 'Start Working Together',
-      description: 'Choose your perfect VA and begin collaborating immediately with our seamless onboarding process.'
+      title: 'Warmup & handoff',
+      description: 'We apply a warmup + health plan, load deliverability‑friendly templates, and deliver a handoff doc.'
     }
   ];
 
@@ -25,11 +25,9 @@ const HowItWorksSection = () => {
       <div className="max-w-6xl mx-auto px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
-          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">
-            How onvally Works
-          </h2>
+          <h2 className="text-4xl lg:text-5xl font-bold text-gray-900 mb-4">How the free buildout works</h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Get matched with your perfect virtual assistant in three simple steps
+            Your cold email stack configured safely in three steps
           </p>
         </div>
 
