@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useRef, useState } from 'react';
-import { Star, FileText, CreditCard, Shield } from 'lucide-react';
+import { Globe, Settings, CheckCircle, Zap } from 'lucide-react';
 
 const HowItWorksHero = () => {
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -46,24 +46,24 @@ const HowItWorksHero = () => {
 
   const steps = [
     {
-      icon: <Star className="w-6 h-6 text-blue-500" />,
-      title: "Tell us your needs",
-      description: "Describe your business requirements, preferred skills, and the type of tasks you need help with."
+      icon: <Globe className="w-6 h-6 text-blue-500" />,
+      title: "Book & scope",
+      description: "Book a free consultation call. We'll discuss your cold email goals, volume targets, and current domain setup."
     },
     {
-      icon: <FileText className="w-6 h-6 text-blue-500" />,
-      title: "We find your matches",
-      description: "Our AI matching system analyzes your requirements and connects you with pre-vetted VAs who have the exact skills you need."
+      icon: <Settings className="w-6 h-6 text-blue-500" />,
+      title: "Configure infrastructure",
+      description: "We set up DNS records (SPF/DKIM/DMARC), provision inboxes, configure tracking domains, and establish safe sending limits."
     },
     {
-      icon: <CreditCard className="w-6 h-6 text-blue-500" />,
-      title: "Interview & select",
-      description: "Meet your top 3 VA candidates within 48 hours. Interview them and choose the perfect fit for your business."
+      icon: <CheckCircle className="w-6 h-6 text-blue-500" />,
+      title: "Warmup & templates",
+      description: "We implement inbox warmup schedules, load deliverability-friendly email templates, and configure monitoring."
     },
     {
-      icon: <Shield className="w-6 h-6 text-blue-500" />,
-      title: "Start working together",
-      description: "Begin collaborating with your chosen VA immediately with our seamless onboarding process and ongoing support."
+      icon: <Zap className="w-6 h-6 text-blue-500" />,
+      title: "Launch ready",
+      description: "Receive a complete handoff document with login credentials, safety guidelines, and best practices for sustainable cold email."
     }
   ];
 
@@ -74,13 +74,13 @@ const HowItWorksHero = () => {
           {/* Left Column */}
           <div>
             <div className="mb-4">
-              <span className="text-blue-500 text-sm font-medium">What we set up</span>
+              <span className="text-blue-500 text-sm font-medium">How it works</span>
             </div>
               <h2 className="text-4xl font-bold text-gray-900 mb-6">
-                Your cold email system, configured
+                Free cold email setup process
               </h2>
               <p className="text-lg text-gray-600 mb-8 leading-relaxed">
-                Domains, DNS, inbox warmup, sending limits, tracking, templates, and a safe ramp. You own every account.
+                Complete technical setup from DNS configuration to deliverability optimization. You own every account and receive full documentation.
               </p>
             <div className="flex flex-col sm:flex-row gap-3">
               <a href="/demo" className="group inline-flex items-center justify-center gap-2 bg-blue-600 text-white text-[15px] font-medium px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl">
